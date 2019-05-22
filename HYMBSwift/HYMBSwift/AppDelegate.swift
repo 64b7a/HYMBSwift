@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //创建窗口
         window = UIWindow(frame: UIScreen.main.bounds)
         //创建根视图控制器
-        let mainTabBarVC = FirstPageViewController()
+        let mainTabBarVC = RootTabBarViewController()
         self.window?.rootViewController = mainTabBarVC
         //显示窗口
         window?.makeKeyAndVisible()

@@ -1,14 +1,14 @@
 //
-//  FirstPageViewController.swift
+//  TableViewController.swift
 //  HYMBSwift
 //
-//  Created by 863Soft on 2019/4/4.
+//  Created by 863Soft on 2019/5/22.
 //  Copyright © 2019 MAC. All rights reserved.
 //
 
 import UIKit
 
-class FirstPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var tableView = UITableView()
     var dataArr = NSArray()
@@ -16,16 +16,18 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.setUI()
     }
     
     func setUI() {
         
+        self.title = ""
+        
         // 添加tableView
         tableView = UITableView(frame: self.view.bounds, style: UITableView.Style.plain)
         tableView.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: FirstPageViewController.cellId)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: TableViewController.cellId)
         tableView.delegate = self
         tableView.dataSource = self
         self.view.addSubview(tableView)
@@ -43,7 +45,7 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // 定义一个cell
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: FirstPageViewController.cellId, for: indexPath)
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: TableViewController.cellId, for: indexPath)
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
         
         
@@ -86,4 +88,3 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     
 }
-

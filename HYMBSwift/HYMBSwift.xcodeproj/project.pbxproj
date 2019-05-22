@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E5A452294E0BA00BCA15C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E5A432294E0BA00BCA15C /* MineViewController.swift */; };
+		040E5A462294E0BA00BCA15C /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E5A442294E0BA00BCA15C /* MineViewController.xib */; };
+		040E5A4A2294E11800BCA15C /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E5A482294E11800BCA15C /* RootTabBarViewController.swift */; };
+		040E5A4B2294E11800BCA15C /* RootTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E5A492294E11800BCA15C /* RootTabBarViewController.xib */; };
+		040E5A4E2294E13F00BCA15C /* RootNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E5A4C2294E13F00BCA15C /* RootNavViewController.swift */; };
+		040E5A4F2294E13F00BCA15C /* RootNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E5A4D2294E13F00BCA15C /* RootNavViewController.xib */; };
+		040E5A552294E56300BCA15C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E5A532294E56300BCA15C /* CollectionViewController.swift */; };
+		040E5A562294E56300BCA15C /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E5A542294E56300BCA15C /* CollectionViewController.xib */; };
+		040E5A5A2294E58900BCA15C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E5A582294E58900BCA15C /* TableViewController.swift */; };
+		040E5A5B2294E58900BCA15C /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E5A592294E58900BCA15C /* TableViewController.xib */; };
 		047622812255E5AF008F9C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047622802255E5AF008F9C52 /* AppDelegate.swift */; };
 		047622832255E5AF008F9C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047622822255E5AF008F9C52 /* ViewController.swift */; };
 		047622862255E5AF008F9C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047622842255E5AF008F9C52 /* Main.storyboard */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040E5A432294E0BA00BCA15C /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		040E5A442294E0BA00BCA15C /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		040E5A482294E11800BCA15C /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		040E5A492294E11800BCA15C /* RootTabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootTabBarViewController.xib; sourceTree = "<group>"; };
+		040E5A4C2294E13F00BCA15C /* RootNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavViewController.swift; sourceTree = "<group>"; };
+		040E5A4D2294E13F00BCA15C /* RootNavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootNavViewController.xib; sourceTree = "<group>"; };
+		040E5A532294E56300BCA15C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		040E5A542294E56300BCA15C /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		040E5A582294E58900BCA15C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		040E5A592294E58900BCA15C /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		0476227D2255E5AF008F9C52 /* HYMBSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMBSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047622802255E5AF008F9C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047622822255E5AF008F9C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +100,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040E5A422294E09A00BCA15C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				040E5A432294E0BA00BCA15C /* MineViewController.swift */,
+				040E5A442294E0BA00BCA15C /* MineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		040E5A472294E0C400BCA15C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				040E5A482294E11800BCA15C /* RootTabBarViewController.swift */,
+				040E5A492294E11800BCA15C /* RootTabBarViewController.xib */,
+				040E5A4C2294E13F00BCA15C /* RootNavViewController.swift */,
+				040E5A4D2294E13F00BCA15C /* RootNavViewController.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		040E5A502294E51100BCA15C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				040E5A532294E56300BCA15C /* CollectionViewController.swift */,
+				040E5A542294E56300BCA15C /* CollectionViewController.xib */,
+				040E5A582294E58900BCA15C /* TableViewController.swift */,
+				040E5A592294E58900BCA15C /* TableViewController.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		047622742255E5AF008F9C52 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +154,7 @@
 		0476227F2255E5AF008F9C52 /* HYMBSwift */ = {
 			isa = PBXGroup;
 			children = (
+				040E5A502294E51100BCA15C /* Other */,
 				047622B12255E5F3008F9C52 /* Section */,
 				047622802255E5AF008F9C52 /* AppDelegate.swift */,
 				047622822255E5AF008F9C52 /* ViewController.swift */,
@@ -136,7 +188,9 @@
 		047622B12255E5F3008F9C52 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				040E5A472294E0C400BCA15C /* Base */,
 				047622B22255E606008F9C52 /* FirstPage */,
+				040E5A422294E09A00BCA15C /* Mine */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -254,8 +308,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E5A562294E56300BCA15C /* CollectionViewController.xib in Resources */,
+				040E5A462294E0BA00BCA15C /* MineViewController.xib in Resources */,
 				047622B62255E61E008F9C52 /* FirstPageViewController.xib in Resources */,
+				040E5A4B2294E11800BCA15C /* RootTabBarViewController.xib in Resources */,
 				0476228E2255E5B1008F9C52 /* LaunchScreen.storyboard in Resources */,
+				040E5A4F2294E13F00BCA15C /* RootNavViewController.xib in Resources */,
+				040E5A5B2294E58900BCA15C /* TableViewController.xib in Resources */,
 				0476228B2255E5B1008F9C52 /* Assets.xcassets in Resources */,
 				047622862255E5AF008F9C52 /* Main.storyboard in Resources */,
 			);
@@ -282,10 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E5A552294E56300BCA15C /* CollectionViewController.swift in Sources */,
 				047622B52255E61E008F9C52 /* FirstPageViewController.swift in Sources */,
 				047622832255E5AF008F9C52 /* ViewController.swift in Sources */,
 				047622812255E5AF008F9C52 /* AppDelegate.swift in Sources */,
 				047622892255E5AF008F9C52 /* HYMBSwift.xcdatamodeld in Sources */,
+				040E5A4A2294E11800BCA15C /* RootTabBarViewController.swift in Sources */,
+				040E5A4E2294E13F00BCA15C /* RootNavViewController.swift in Sources */,
+				040E5A5A2294E58900BCA15C /* TableViewController.swift in Sources */,
+				040E5A452294E0BA00BCA15C /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
