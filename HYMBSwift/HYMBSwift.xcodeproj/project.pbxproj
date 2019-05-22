@@ -123,10 +123,10 @@
 		040E5A502294E51100BCA15C /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				040E5A532294E56300BCA15C /* CollectionViewController.swift */,
-				040E5A542294E56300BCA15C /* CollectionViewController.xib */,
 				040E5A582294E58900BCA15C /* TableViewController.swift */,
 				040E5A592294E58900BCA15C /* TableViewController.xib */,
+				040E5A532294E56300BCA15C /* CollectionViewController.swift */,
+				040E5A542294E56300BCA15C /* CollectionViewController.xib */,
 			);
 			path = Other;
 			sourceTree = "<group>";

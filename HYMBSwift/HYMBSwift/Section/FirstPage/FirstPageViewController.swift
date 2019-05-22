@@ -10,8 +10,8 @@ import UIKit
 
 class FirstPageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var tableView = UITableView()
-    var dataArr = NSArray()
+    var tableView:UITableView?
+    var dataArr:NSArray?
     static let cellId = "cell"
     
     override func viewDidLoad() {
@@ -24,11 +24,11 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
         
         // 添加tableView
         tableView = UITableView(frame: self.view.bounds, style: UITableView.Style.plain)
-        tableView.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: FirstPageViewController.cellId)
-        tableView.delegate = self
-        tableView.dataSource = self
-        self.view.addSubview(tableView)
+        tableView!.backgroundColor = UIColor(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
+        tableView!.register(UITableViewCell.self, forCellReuseIdentifier: FirstPageViewController.cellId)
+        tableView!.delegate = self
+        tableView!.dataSource = self
+        self.view.addSubview(tableView!)
         
     }
     
