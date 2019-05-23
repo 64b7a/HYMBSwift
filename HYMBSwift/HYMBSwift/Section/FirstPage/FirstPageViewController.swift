@@ -17,6 +17,13 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        dataArr = [
+            [
+                "title":"其它",
+                "content":["hello world", "测试"],
+                ],
+        ]
+        
         self.setUI()
     }
     
@@ -33,11 +40,11 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return dataArr!.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return ((dataArr![section] as AnyObject)["content"] as AnyObject).count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -45,6 +52,8 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
         // 定义一个cell
         let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: FirstPageViewController.cellId, for: indexPath)
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
+        
+        cell.textLabel?.text = ((dataArr![indexPath.section] as AnyObject)["content"] as! NSArray)[indexPath.row] as? String
         
         
         return cell
@@ -80,6 +89,16 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let cell:UITableViewCell = tableView.cellForRow(at: indexPath)!;
+        
+        if (cell.textLabel?.text == "hello world") {
+            
+        }
+        
+        if (cell.textLabel?.text == "测试") {
+            let VC = TestViewController()
+            self.navigationController?.pushViewController(VC, animated: true)
+        }
         
     }
     

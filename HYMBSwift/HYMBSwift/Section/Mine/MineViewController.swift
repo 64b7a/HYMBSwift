@@ -24,7 +24,7 @@ class MineViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
         //创建集合视图布局类
         let flowLayout = UICollectionViewFlowLayout()
-        flowLayout.itemSize = CGSize.init(width: 150, height: 100)
+        flowLayout.itemSize = CGSize.init(width: 180, height: 100)
         flowLayout.minimumInteritemSpacing = 10
         flowLayout.minimumLineSpacing = 10
         flowLayout.headerReferenceSize = CGSize.init(width: self.view.bounds.size.width, height: 0)
@@ -63,6 +63,7 @@ class MineViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
 
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        
         if (kind == UICollectionView.elementKindSectionHeader) {
             let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "headerId", for: indexPath)
 

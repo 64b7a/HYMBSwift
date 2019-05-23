@@ -12,19 +12,16 @@ class RootNavViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationBar.barStyle = UIBarStyle.default
+        let atrr = NSMutableDictionary.init()
+        atrr[NSAttributedString.Key.foregroundColor] = UIColor.black
+        atrr[NSAttributedString.Key.font] = UIFont.systemFont(ofSize: 20);
+        self.navigationBar.titleTextAttributes = atrr as? [NSAttributedString.Key : Any]
+        self.navigationBar.barTintColor = UIColor.white
+        self.navigationBar.isTranslucent = true//半透明效果
 
-        // Do any additional setup after loading the view.
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
