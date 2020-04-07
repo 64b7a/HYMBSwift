@@ -20,7 +20,7 @@ class FirstPageViewController: UIViewController, UITableViewDelegate, UITableVie
         dataArr = [
             [
                 "title":"其它",
-                "content":["hello world", "测试"],
+                "content":["hello world", "测试", "测试2"],
                 ],
         ]
         

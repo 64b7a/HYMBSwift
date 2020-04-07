@@ -18,7 +18,7 @@ class TestViewController: UIViewController {
 
     func getData() {
         
-        
+        print("fsjfl")
         
     }
     

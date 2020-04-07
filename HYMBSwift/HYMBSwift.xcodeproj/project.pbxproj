@@ -211,9 +211,9 @@
 		047622B22255E606008F9C52 /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
-				040E5A5E229547A200BCA15C /* Test */,
 				047622B32255E61E008F9C52 /* FirstPageViewController.swift */,
 				047622B42255E61E008F9C52 /* FirstPageViewController.xib */,
+				040E5A5E229547A200BCA15C /* Test */,
 			);
 			path = FirstPage;
 			sourceTree = "<group>";
@@ -541,7 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DJKYFL8FF9;
+				DEVELOPMENT_TEAM = ACNBCMMT3V;
 				INFOPLIST_FILE = HYMBSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -560,7 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DJKYFL8FF9;
+				DEVELOPMENT_TEAM = ACNBCMMT3V;
 				INFOPLIST_FILE = HYMBSwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

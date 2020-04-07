@@ -22,6 +22,18 @@ class RootNavViewController: UINavigationController {
         self.navigationBar.isTranslucent = true//半透明效果
 
     }
+    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        
+        if self.children.count > 0 {
+            // 隐藏tabbar
+            viewController.hidesBottomBarWhenPushed = true
+        }
+       
+        
+        super.pushViewController(viewController, animated: animated)
+        
+    }
 
 
 }
